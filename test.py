@@ -1,3 +1,4 @@
-test = 'Hello'
+hello = 'Hello'
+country = 'France'
 
-print(test)
+print(hello + ' ' + country)
