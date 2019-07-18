@@ -1,0 +1,18 @@
+issuer: Web L'Agence
+keywords:
+  - FR 94 827610882
+  - Web L'Agence
+fields:
+  date: (\d{2}.\d{2}.\d{4})
+  amount: Total TTC\s+([\d ]+,\d{2})
+  amount_untaxed: Total HT\s+([\d ]+,\d{2})
+  invoice_number: '#(\d+)'
+  static_vat: FR 94 827610882
+options:
+  decimal_separator: ','
+  languages:
+    - fr
+  currency: EUR
+  remove_accents: true
+  date_formats:
+  - '%d/%m/%Y'
