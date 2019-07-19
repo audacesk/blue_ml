@@ -8,14 +8,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Extract data from invoices")
 
     # Add the parameters positional/optional
-    parser.add_argument('-t','--templates_dir', help="Templates folder", type=str)
-    parser.add_argument('-i','--invoice', help="Invoice file", type=str)
+    parser.add_argument('-t','--templates_dirpath', help="Templates directory path", type=str)
+    parser.add_argument('-i','--invoice_path', help="Invoice file path", type=str)
 
     # Parse the arguments
     args = parser.parse_args()
 
-    templates = read_templates(args.templates_dir)
+    templates = read_templates(args.templates_dirpath)
 
-    json_data = extract_data(args.invoice, templates=templates)
+    json_data = extract_data(args.invoice_path, templates=templates)
 
     print(json_data)
