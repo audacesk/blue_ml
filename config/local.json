@@ -1,0 +1,7 @@
+{
+  "extractor_path": "bin/invoice2data/extract_data.py",
+  "templates_path": "bin/invoice2data/templates",
+  "data_path": {
+    "invoices": "bin/invoice2data/data/invoices/"
+  }
+}

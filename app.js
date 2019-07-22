@@ -1,13 +1,13 @@
-var createError = require('http-errors');
-var express = require('express');
-var chalk = require('chalk');
-var bodyParser = require('body-parser');
-var compression = require('compression')
-var logger = require('morgan');
+const createError = require('http-errors');
+const express = require('express');
+const chalk = require('chalk');
+const bodyParser = require('body-parser');
+const compression = require('compression')
+const logger = require('morgan');
 
-var indexRouter = require('./routes/index');
+const indexRouter = require('./routes/index');
 
-var app = express();
+const app = express();
 
 const port = process.env.PORT || 8000
 
@@ -17,10 +17,10 @@ app.use(compression())
 app.use(logger('dev'));
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use('/', indexRouter);
+app.use('/api', indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -38,7 +38,7 @@ app.use(function(err, req, res, next) {
 });
 
 
-console.log(chalk.red(`Magic happens at http://localhost:${port}/ 👍`))
+console.log(chalk.red(`Magic happens at http://localhost:${port}/api 👍`))
 
 process.on('SIGINT', () => { console.log(chalk.red('Bye bye 👋')); process.exit() })
 

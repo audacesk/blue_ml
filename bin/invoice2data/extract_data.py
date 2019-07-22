@@ -1,6 +1,7 @@
 from invoice2data import extract_data
 from invoice2data.extract.loader import read_templates
-
+import json
+import datetime
 import argparse
 
 if __name__ == '__main__':
@@ -16,6 +17,10 @@ if __name__ == '__main__':
 
     templates = read_templates(args.templates_dirpath)
 
-    json_data = extract_data(args.invoice_path, templates=templates)
+    output_data = extract_data(args.invoice_path, templates=templates)
 
-    print(json_data)
+    # make the 'date': datetime object working please
+    # then print the formatted JSON data output
+    # print(json.dumps(json_data, indent=2))
+
+    print(output_data)
