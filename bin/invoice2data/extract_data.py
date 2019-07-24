@@ -20,19 +20,19 @@ if __name__ == '__main__':
     output_data = extract_data(args.invoice_path, templates=templates)
 
     # make the 'date': datetime object working please
-    date_ok = output_data['date']
-    year = date_ok.strftime('%Y')
-    month = date_ok.strftime('%m')
-    day = date_ok.strftime('%d')
+    # date_ok = output_data['date']
+    # year = date_ok.strftime('%Y')
+    # month = date_ok.strftime('%m')
+    # day = date_ok.strftime('%d')
 
-    print('year: ', year, ' month: ', month, ' day: ', day)
+    # print('year: ', year, ' month: ', month, ' day: ', day)
 
-    time = date_ok.strftime('%H:%M:%S')
-    print('time: ', time)
+    # time = date_ok.strftime('%H:%M:%S')
+    # print('time: ', time)
 
-    date_time = date_ok.strftime('%d/%m/%Y, %H:%M,%S')
-    print('Date & Heure: ', date_time)
-    print(type(date_time))
+    # date_time = date_ok.strftime('%d/%m/%Y, %H:%M,%S')
+    # print('Date & Heure: ', date_time)
+    # print(type(date_time))
     # then print the formatted JSON data output
     # print(json.dumps(json_data, indent=2))
 
