@@ -32,6 +32,7 @@ if __name__ == '__main__':
 
     date_time = date_ok.strftime('%d/%m/%Y, %H:%M,%S')
     print('Date & Heure: ', date_time)
+    print(type(date_time))
     # then print the formatted JSON data output
     # print(json.dumps(json_data, indent=2))
 
