@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+issuer: Your Bo
+fields:
+  amount: Net à payer\s+(\d+\,\d+)
+  amount_untaxed: 45,00 
+  date: (\d{2}.\d{2}.\d{4})
+  invoice_number: ([0-9]{8})
+  static_vat: FR60753521624 
+  # siren: 
+  siret: 753 521 624 00027
+  # amount: Total TTC\s+(\d+\.\d+)
+  # amount_untaxed: Total HT\s+(\d+\.\d+)
+  # date: Date\s\:\s+(\d{2}.\d{2}.\d{4})
+  # invoice_number: ([A-Z][0-9]{8})
+  # static_vat: FR92821976701
+  # siren: SIREN\s:\s+([0-9]{3}\s[0-9]{3}\s[0-9]{3})
+keywords:
+  - YOUR BO SAS
+  - FR60753521624
+options:
+  currency: EUR
+  date_formats:
+    - '%d %B %Y'
+  languages:
+    - fr
+  decimal_separator: ','
