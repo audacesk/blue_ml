@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+issuer: Station F
+fields:
+  amount: Total TTC\s+(\d+\.\d+)
+  amount_untaxed: Total HT\s+(\d+\.\d+)
+  date: Date\s\:\s+(\d{2}.\d{2}.\d{4})
+  invoice_number: ([A-Z][0-9]{8})
+  static_vat: FR92821976701
+  siren: SIREN\s:\s+([0-9]{3}\s[0-9]{3}\s[0-9]{3})
+keywords:
+  - STATION F
+  - 794 493 84
+  - 7022Z
+options:
+  currency: EUR
+  date_formats:
+    - '%d %B %Y'
+  languages:
+    - fr
+  decimal_separator: '.'

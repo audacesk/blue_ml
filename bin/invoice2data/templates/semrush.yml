@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+issuer: Semrush
+fields:
+  amount: TOTAL AT CHECKOUT\s+\$(\d+\.\d+)
+  amount_untaxed: PURCHASES\s+\$(\d+\.\d+)
+  date: PAYMENT DATE\:\s+(\d{4}-\d{2}-\d{2}) 
+  invoice_number: INVOICE\:\s\#[0-9]{17}
+  static_vat: CY 10324428J 
+keywords:
+  - SEMRUSH CY LTD
+  - CY 10324428J
+options:
+  currency: USD
+  date_formats:
+    - '%d %B %Y'
+  decimal_separator: '.'
