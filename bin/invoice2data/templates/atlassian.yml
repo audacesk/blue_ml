@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+issuer: Atlassian
+fields:
+  amount: Total Amount Paid\s+[A-Z]{3}\s(\d+\.\d+)
+  amount_untaxed: Tax\s+[A-Z]{3}\s(\d+\.\d+)
+  date: Date issued\:+\s([A-Za-z]{3}\s[0-9]{1,2},\s[0-9]{4})
+  invoice_number: Invoice Number\:+\s([A-Z]{2}-[0-9]{8})
+  static_vat: EU372001951 
+keywords:
+  - Atlassian Pty Ltd
+  - EU372001951
+options:
+  currency: USD
+  date_formats:
+    - '%d %B %Y'
+  decimal_separator: '.'
