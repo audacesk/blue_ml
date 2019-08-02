@@ -1,0 +1,83 @@
+Faites & vérifiées:
+	OVH
+	Google
+	Amazon (classic)
+	Hotjar
+	Semrush
+	StationF
+	Atlassian
+	Qonto
+	Asana
+	BrowserStack
+	DigitalOcean
+	Slite
+
+A corriger/faire:
+	Intercom (problème avec "date" and subtotal preventing me from selecting "total")
+	Weblagence (problème avec "date" car à la ligne)
+	Nespresso (compliqué avec les sauts de lignes)
+	AmazonPrimeNow (je n'arrive pas à entrer le "amount_taxed". Sur la facture, c'est "Hors TVA Total")
+	Ngrok ("date" & "invoice_number" doit utiliser des lines)
+	Apple	
+
+Modèles français existants (non testés):
+	Airfrance
+	Saur
+	So you start
+	Vinci autoroutes
+	Trainline
+	Assurance epargne pension
+	Bouygues telecom adsl fibre
+	Bouygues telecom mobile
+	Chronopost
+	Dirafi
+	Domaine achat
+	Easy trip
+	Edf entreprise
+	Edf PME
+	Finagaz
+	Fountain
+	Free adsl fibre
+	Free mobile
+	Futur
+	GE iroise
+	Greffe TC Lyon
+	Hiscox
+	Internetsatellite
+	JPG
+	La poste boutique
+	La poste coliposte
+	Lecab
+	Maaf
+	Mediapart
+	Moneo-resto
+	Mouser
+	Napsis
+	Nexity
+	Orange fibre
+	Orange fixedline
+	Prestaclic
+	Public annonce légale
+	SFR adsl fibre
+	SFR mobile
+	Sosh
+	Teledec
+	Mooncard
+	Adobe
+	Akretion
+	Atelier copie service
+	Chauffeur privé
+	Coriolis
+	Easyjet
+	Eau du grand Lyon
+	Go Daddy
+	Hootsuite
+	Jean Bresson
+	LDLC
+	LinkedIn
+	Mention
+	Microsoft
+	My flying box
+	Office timeline
+	Orange business mobile
+	RS online
