@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+issuer: Asana
+fields:
+  amount: Amount Paid\s+\$(\d+\.\d+)
+  amount_untaxed: Amount Paid\s+\$(\d+\.\d+)
+  date: (\w{3,}\s\d{1,2}\,\s\d{4})
+  invoice_number: 66VAPIEB-0002
+  static_vat: ' ' 
+keywords:
+  - ngrok LLC
+options:
+  currency: USD
+  date_formats:
+    - '%d %B %Y'
+  decimal_separator: '.'
