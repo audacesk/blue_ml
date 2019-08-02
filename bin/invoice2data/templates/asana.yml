@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+issuer: Asana
+fields:
+  amount: Total\s+\€(\d+\.\d+)
+  amount_untaxed: Total\s+\€(\d+\.\d+)
+  date: on\s+([A-Za-z]{3,9}\s[0-9]{2},\s[0-9]{4})
+  invoice_number: Invoice\s\#\s+(\d+)
+  static_vat: ' ' 
+keywords:
+  - asana
+  - 1550 Bryant Street
+options:
+  currency: EUR
+  date_formats:
+    - '%d %B %Y'
+  decimal_separator: '.'

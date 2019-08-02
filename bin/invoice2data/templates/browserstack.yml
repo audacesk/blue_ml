@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+issuer: BrowserStack
+fields:
+  amount: Total\s\:\s+\$(\d+\.\d+)
+  amount_untaxed: Total\s\:\s+\$(\d+\.\d+)
+  date: Dated\:\s+([0-9]{1,2}[a-z]{2}\s+[A-Za-z]{3}\,\s+[0-9]{4})
+  invoice_number: Invoice ID\:\s+(\d+)
+  static_vat: ' ' 
+keywords:
+  - BrowserStack Inc
+  - 4512 Legacy Drive
+options:
+  currency: USD
+  date_formats:
+    - '%d %B %Y'
+  decimal_separator: '.'

@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+issuer: DigitalOcean
+fields:
+  amount: Total due\s+\$(\d+\.\d+)
+  amount_untaxed: Total due\s+\$(\d+\.\d+)
+  date: Date of issue\:\s+(\w{3,}\s\d{1,2}\,\s\d{4})
+  invoice_number: Invoice number\:\s+(\d+)
+  static_vat: ' '
+keywords:
+  - 101 Avenue of the Americas
+  - EU528002224
+options:
+  currency: EUR
+  date_formats:
+    - '%d %B %Y'
+  decimal_separator: '.'
